@@ -200,10 +200,10 @@ start = time.time()
 os.chdir(build_dir)
 
 # Copy the source tree to the temporary folder - makes build 3x faster than building against the mount on Windows
-print("")
-print ("Copying source from /opentx to /tmp/opentx ...")
-print("")
-shutil.copytree("/opentx", "/tmp/opentx", ignore=shutil.ignore_patterns(".git"))
+#print("")
+#print ("Copying source from /opentx to /tmp/opentx ...")
+#print("")
+#shutil.copytree("/opentx", "/tmp/opentx", ignore=shutil.ignore_patterns(".git"))
 
 # Prepare the cmake command
 cmd = ["cmake"]
