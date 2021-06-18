@@ -16,7 +16,7 @@ print("")
 
 # Specify some paths for the build
 build_dir = "/build"
-source_dir = "/tmp/opentx"
+source_dir = "/opentx"
 output_dir = "/opentx"
 output_filename = "opentx"
 output_extension = ".bin"
